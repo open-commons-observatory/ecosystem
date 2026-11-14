@@ -1,0 +1,1 @@
+{"id":"people/1","lens":"people","part":1,"title":"who takes part ({count})","query":"SELECT id, name, kind, CASE WHEN coalesce(also, '') <> '' THEN ' - also ' || also ELSE '' END AS known FROM people ORDER BY seq","lays_out":"{id} - {name}, {kind}{known}"}
