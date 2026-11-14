@@ -2,3 +2,8 @@
 {"id":"people/people/id","lens":"people","of_table":"people","name":"id","kind":"string","needed":true,"ordinal":1}
 {"id":"people/people/kind","lens":"people","of_table":"people","name":"kind","kind":"string","needed":true,"ordinal":3,"allowed":"a person, an agent"}
 {"id":"people/people/name","lens":"people","of_table":"people","name":"name","kind":"string","needed":true,"ordinal":2}
+{"id":"surfaces/surfaces/at","lens":"surfaces","of_table":"surfaces","name":"at","kind":"string","needed":true,"ordinal":3}
+{"id":"surfaces/surfaces/holds","lens":"surfaces","of_table":"surfaces","name":"holds","kind":"string","needed":true,"ordinal":2}
+{"id":"surfaces/surfaces/id","lens":"surfaces","of_table":"surfaces","name":"id","kind":"string","needed":true,"ordinal":1}
+{"id":"surfaces/surfaces/lacks","lens":"surfaces","of_table":"surfaces","name":"lacks","kind":"string","needed":false,"ordinal":5}
+{"id":"surfaces/surfaces/read","lens":"surfaces","of_table":"surfaces","name":"read","kind":"string","needed":false,"ordinal":4}
