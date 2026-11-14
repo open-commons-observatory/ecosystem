@@ -1,4 +1,4 @@
-{"id":"people/people/also","lens":"people","of_table":"people","name":"also","kind":"string","needed":false,"at":4}
-{"id":"people/people/id","lens":"people","of_table":"people","name":"id","kind":"string","needed":true,"at":1}
-{"id":"people/people/kind","lens":"people","of_table":"people","name":"kind","kind":"string","needed":true,"at":3,"allowed":"a person, an agent"}
-{"id":"people/people/name","lens":"people","of_table":"people","name":"name","kind":"string","needed":true,"at":2}
+{"id":"people/people/also","lens":"people","of_table":"people","name":"also","kind":"string","needed":false,"ordinal":4}
+{"id":"people/people/id","lens":"people","of_table":"people","name":"id","kind":"string","needed":true,"ordinal":1}
+{"id":"people/people/kind","lens":"people","of_table":"people","name":"kind","kind":"string","needed":true,"ordinal":3,"allowed":"a person, an agent"}
+{"id":"people/people/name","lens":"people","of_table":"people","name":"name","kind":"string","needed":true,"ordinal":2}
