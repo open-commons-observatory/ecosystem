@@ -4,6 +4,7 @@
 {"id":"the-perfect-form/1","lens":"the-perfect-form","part":1,"title":"the perfect form, from each angle ({count})","query":"SELECT ord, heading, \"text\" AS says, star || '/idea:' || id AS thing FROM idea WHERE star = 'ecosystem' ORDER BY ord","lays_out":"{heading} - {says}"}
 {"id":"the-perfect-form/10","lens":"the-perfect-form","part":10,"places":"surfaces","only":"not yet read - and what is lacking"}
 {"id":"the-perfect-form/11","lens":"the-perfect-form","part":11,"places":"kept-out","only":"kept out, by what it is"}
+{"id":"the-perfect-form/12","lens":"the-perfect-form","part":12,"title":"toward each angle - the work made standing on it ({count})","query":"SELECT i.heading, i.star || '/idea:' || i.id AS thing, count(e.\"from\") AS records, coalesce(max(left(t.says, 70)), 'nothing yet') AS latest FROM idea i LEFT JOIN edges e ON e.to_table = 'idea' AND e.to_star = i.star AND e.to_id = i.id AND e.from_table = 'glimpses' LEFT JOIN things t ON t.id = e.\"from\" WHERE i.star = 'ecosystem' GROUP BY i.ord, i.heading, i.star, i.id ORDER BY i.ord","lays_out":"{heading} - {records} record(s) of work - {latest}"}
 {"id":"the-perfect-form/2","lens":"the-perfect-form","part":2,"places":"work","only":"where the work is happening - read off where it was done"}
 {"id":"the-perfect-form/3","lens":"the-perfect-form","part":3,"places":"graph","only":"what nothing points at, by kind"}
 {"id":"the-perfect-form/4","lens":"the-perfect-form","part":4,"places":"signs","only":"showing, and what each waits on"}
