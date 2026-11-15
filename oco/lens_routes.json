@@ -1,0 +1,2 @@
+{"id":"documents/documents","lens":"documents","of_table":"documents","from":"files","which":"**/*.md"}
+{"id":"documents/titles","lens":"documents","of_table":"titles","from":"files","which":"**/*.md","shape":"\\A\\s*#\\s+(?P<name>[^\\n]+)"}

@@ -1,3 +1,11 @@
+{"id":"documents/documents/bytes","lens":"documents","of_table":"documents","name":"bytes","kind":"integer","needed":false,"ordinal":4}
+{"id":"documents/documents/id","lens":"documents","of_table":"documents","name":"id","kind":"string","needed":true,"ordinal":1}
+{"id":"documents/documents/lines","lens":"documents","of_table":"documents","name":"lines","kind":"integer","needed":false,"ordinal":3}
+{"id":"documents/documents/path","lens":"documents","of_table":"documents","name":"path","kind":"string","needed":true,"ordinal":2}
+{"id":"documents/titles/id","lens":"documents","of_table":"titles","name":"id","kind":"string","needed":true,"ordinal":1}
+{"id":"documents/titles/line","lens":"documents","of_table":"titles","name":"line","kind":"integer","needed":false,"ordinal":4}
+{"id":"documents/titles/name","lens":"documents","of_table":"titles","name":"name","kind":"string","needed":true,"ordinal":2}
+{"id":"documents/titles/path","lens":"documents","of_table":"titles","name":"path","kind":"string","needed":true,"ordinal":3}
 {"id":"people/people/also","lens":"people","of_table":"people","name":"also","kind":"string","needed":false,"ordinal":4}
 {"id":"people/people/id","lens":"people","of_table":"people","name":"id","kind":"string","needed":true,"ordinal":1}
 {"id":"people/people/kind","lens":"people","of_table":"people","name":"kind","kind":"string","needed":true,"ordinal":3,"allowed":"a person, an agent"}
