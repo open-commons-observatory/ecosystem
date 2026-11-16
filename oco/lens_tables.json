@@ -1,4 +1,4 @@
-{"id":"documents/documents","lens":"documents","name":"documents","key":"id","extra_fields":true}
+{"id":"documents/documents","lens":"documents","name":"documents","key":"id","extra_fields":true,"tells":"{lines} lines"}
 {"id":"documents/titles","lens":"documents","name":"titles","key":"id","extra_fields":true}
 {"id":"people/people","lens":"people","name":"people","key":"id","extra_fields":true}
-{"id":"surfaces/surfaces","lens":"surfaces","name":"surfaces","key":"id","extra_fields":true}
+{"id":"surfaces/surfaces","lens":"surfaces","name":"surfaces","key":"id","extra_fields":true,"tells":"has"}
