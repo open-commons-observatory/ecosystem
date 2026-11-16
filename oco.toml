@@ -27,8 +27,6 @@ lens_tables = "oco/lens_tables.json"
 lenses = "oco/lenses.json"
 reflections = "oco/reflections.json"
 glimpses = "oco/glimpses.json"
-activity = "oco/gathered/activity.json@oco-data"
-releases = "oco/gathered/releases.json@oco-data"
 
 # What place this is, and what it gathers: a star by name, or every star of an owner (owner/*).
 [place]
