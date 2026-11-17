@@ -157,3 +157,4 @@
 {"id":"g-20261116-221704","at":"2026-11-16T22:17:04Z","by":"claude","kind":"docs","summary":"a reflection: what two notes turned","touches":"reflections:2026-11-16-what-two-notes-turned"}
 {"id":"g-20261116-224833","at":"2026-11-16T22:48:33Z","by":"claude","kind":"docs","summary":"a reflection: what the one language showed","touches":"reflections:2026-11-16-what-the-one-language-showed"}
 {"id":"g-20261117-100008","at":"2026-11-17T10:00:08Z","by":"ideal-agent","kind":"feat","summary":"gather grenudi/ideal-agent: how agents work, beside lab-agent"}
+{"id":"g-20261117-102046","at":"2026-11-17T10:20:46Z","by":"ideal-agent","kind":"fix","summary":"links to the practices point to ideal-agent, where they are kept"}
