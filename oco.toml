@@ -31,4 +31,4 @@ glimpses = "oco/glimpses.json"
 # What place this is, and what it gathers: a star by name, or every star of an owner (owner/*).
 [place]
 is = "constellation"
-gathers = ["open-commons-observatory/ocoeco", "open-commons-observatory/ocoeco-engine", "creation-guidelines/tad-engine", "creation-guidelines/lab-agent", "argenv-opencommons/argenv"]
+gathers = ["open-commons-observatory/ocoeco", "open-commons-observatory/ocoeco-engine", "creation-guidelines/tad-engine", "creation-guidelines/lab-agent", "argenv-opencommons/argenv", "grenudi/ideal-agent"]
